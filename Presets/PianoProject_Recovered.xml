@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Processor Type="SynthChain" ID="PianoProject" Bypassed="0" Gain="1.0" Balance="0.0"
+           VoiceLimit="64.0" KillFadeTime="20.0" IconColour="0" packageName=""
+           BuildVersion="650">
+  <EditorStates BodyShown="0" Visible="1" Solo="0" Folded="1"/>
+  <ChildProcessors>
+    <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+      <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+      <ChildProcessors>
+        <Processor Type="ScriptProcessor" ID="Interface" Bypassed="0" Script="Content.makeFrontInterface(600, 480);&#10;&#10;const var sampleMaps = Sampler.getSampleMapList()&#10;const var ComboBox1 = Content.getComponent(&quot;ComboBox1&quot;);&#10;const var Sampler1 = Synth.getChildSynth(&quot;Sampler1&quot;);&#10;&#10;ComboBox1.set(&quot;items&quot;, sampleMaps.join(&quot;\n&quot;));&#10;&#10;&#10;inline function onComboBox1Control(component, value)&#10;{&#10;&#9;Sampler1.asSampler().loadSampleMap(sampleMaps[value-1]);&#10;};&#10;&#10;Content.getComponent(&quot;ComboBox1&quot;).setControlCallback(onComboBox1Control);&#10;&#10;&#10;//const var Knob8 = Content.getComponent(&quot;Knob8&quot;);&#10;&#10;//const var t = Engine.createTimerObject();&#10;&#10;//t.setTimerCallback(function(){&#10;//&#9;if (Knob8.getValue() &lt; 182)&#10;//&#9;{&#10;//&#9;&#9;Knob8.setValue(Knob8.getValue() + 1);&#10;//&#9;}&#10;//&#9;else&#10;//&#9;{&#10;//&#9;&#9;Knob8.setValue(0);&#10;//&#9;}&#10;//});&#10;&#10;//t.startTimer(50);&#10;function onNoteOn()&#10;{&#10;&#9;&#10;}&#10; function onNoteOff()&#10;{&#10;&#9;&#10;}&#10; function onController()&#10;{&#10;&#9;&#10;}&#10; function onTimer()&#10;{&#10;&#9;&#10;}&#10; function onControl(number, value)&#10;{&#10;&#9;const var Button1 = Content.getComponent(&quot;Button1&quot;);&#10;&#9;const var FloatingTile3 = Content.getComponent(&quot;FloatingTile3&quot;);&#10;&#9;&#10;&#9;const var SetButt = Content.getComponent(&quot;SetButt&quot;);&#10;&#9;const var Settings = Content.getComponent(&quot;Settings&quot;);&#10;&#9;const var ExtraFX = Content.getComponent(&quot;ExtraFX&quot;);&#10;&#9;const var FXBUTT = Content.getComponent(&quot;FXBUTT&quot;);&#10;&#9;&#10;&#9;&#10;&#9;&#10;&#10;const var Blur = Content.getComponent(&quot;Blur&quot;);&#10;&#10;&#10;&#9;&#10;&#9;//Makes presets visible&#10;&#9;if(Button1.getValue() == 1){&#10;&#9;&#9;FloatingTile3.set(&quot;visible&quot;, 1);&#10;&#9;}&#10;&#9;else if (Button1.getValue() == 0){&#10;&#9;&#9;FloatingTile3.set(&quot;visible&quot;, 0);&#10;&#9;}&#10;&#9;&#10;&#9;if(SetButt.getValue() == 1){&#10;&#9;&#9;Settings.set(&quot;visible&quot;, 1);&#10;&#9;&#9;Blur.set(&quot;visible&quot;, 1);&#10;&#9;}&#10;&#9;else if (SetButt.getValue() == 0){&#10;&#9;&#9;Settings.set(&quot;visible&quot;, 0);&#10;&#9;&#9;Blur.set(&quot;visible&quot;, 0);&#10;&#9;}&#10;&#9;&#10;&#9;if (FXBUTT.getValue() == 1)&#10;&#9;{&#10;&#9;&#9;ExtraFX.set(&quot;visible&quot;, 1);&#10;&#9;}&#10;&#9;else if (FXBUTT.getValue() == 0)&#10;&#9;{&#10;&#9;&#9;ExtraFX.set(&quot;visible&quot;, 0);&#10;&#9;}&#10;}&#10; ">
+          <EditorStates BodyShown="1" Visible="1" Solo="0" contentShown="1" onInitOpen="1"/>
+          <ChildProcessors/>
+          <Content>
+            <Control type="ScriptSlider" id="Knob1" value="0.5799999833106995"/>
+            <Control type="ScriptSlider" id="Knob2" value="1.0"/>
+            <Control type="ScriptSlider" id="Knob3" value="5.0"/>
+            <Control type="ScriptSlider" id="Knob4" value="977.7000122070313"/>
+            <Control type="ScriptButton" id="Button1" value="0.0"/>
+            <Control type="ScriptSlider" id="Knob5" value="8.319997787475586"/>
+            <Control type="ScriptButton" id="SetButt" value="0.0"/>
+            <Control type="ScriptButton" id="FXBUTT" value="0.0"/>
+            <Control type="ScriptSlider" id="Air" value="-10.0"/>
+            <Control type="ScriptSlider" id="Air1" value="0.0"/>
+            <Control type="ScriptSlider" id="Air3" value="0.0"/>
+            <Control type="ScriptComboBox" id="ComboBox1" value="2.0"/>
+            <Control type="ScriptSlider" id="Knob6" value="4122.27978515625"/>
+            <Control type="ScriptSlider" id="Knob7" value="0.0"/>
+          </Content>
+          <UIData>
+            <ContentProperties DeviceType="Desktop">
+              <Component type="ScriptImage" id="Image1" x="0.0" y="0.0" fileName="C:\Users\Anigma PC\Desktop\Untitled design (28).png"
+                         width="600.0" height="410.0"/>
+              <Component type="ScriptImage" id="Logo" x="257.0" y="3.0" width="90.0" height="20.0"
+                         fileName="C:\Users\Anigma PC\Desktop\Soitta_Logo.png"/>
+              <Component type="ScriptSlider" id="Knob1" x="70.0" y="310.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+                         numStrips="128.0" width="70.0" height="60.0" scaleFactor="0.5"
+                         processorId="Simple Reverb1" parameterId="WetLevel" showValuePopup="Below"
+                         pluginParameterName="Reverb" isPluginParameter="1"/>
+              <Component type="ScriptSlider" id="Knob2" x="470.0" y="310.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+                         numStrips="128.0" width="70.0" height="60.0" scaleFactor="0.5"
+                         processorId="Velocity Modulator1" parameterId="Intensity" showValuePopup="Below"
+                         pluginParameterName="Dynamics" isPluginParameter="1"/>
+              <Component type="ScriptLabel" id="Label1" x="62.0" y="369.0" itemColour2="1118481"
+                         text="Reverb" fontSize="21.0" width="80.0" height="20.0" fontStyle="Regular"
+                         editable="0" fontName="Oxygen"/>
+              <Component type="ScriptLabel" id="Label2" x="459.0" y="369.0" itemColour2="1118481"
+                         text="Dynamics" fontSize="21.0" width="90.0" height="20.0" fontStyle="Regular"
+                         alignment="centredBottom" editable="0" fontName="Oxygen"/>
+              <Component type="ScriptSlider" id="Knob3" x="162.0" y="300.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+                         numStrips="128.0" width="80.0" height="70.0" scaleFactor="0.6000000238418579"
+                         processorId="DefaultEnvelope1" parameterId="Attack" max="5000.0"
+                         middlePosition="2500.0" min="5.0" defaultValue="5.0" suffix="ms"
+                         showValuePopup="Below" pluginParameterName="Attack" isPluginParameter="1"/>
+              <Component type="ScriptLabel" id="Label3" x="162.0" y="370.0" itemColour2="1118481"
+                         text="Attack" fontSize="20.0" width="80.0" height="20.0" fontStyle="Regular"
+                         alignment="centredBottom" editable="0" fontName="Oxygen"/>
+              <Component type="ScriptFloatingTile" id="FloatingTile1" x="338.0" y="536.0"
+                         bgColour="16777215" itemColour="3355443"/>
+              <Component type="ScriptFloatingTile" id="FloatingTile2" x="0.0" y="410.0"
+                         ContentType="Keyboard" bgColour="4278921026" itemColour="452984831"
+                         itemColour2="4294967295" textColour="590079" Data="{&#10;  &quot;KeyWidth&quot;: 14.0,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 24,&#10;  &quot;HiKey&quot;: 96,&#10;  &quot;CustomGraphics&quot;: true,&#10;  &quot;DefaultAppearance&quot;: true,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: false,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: true,&#10;  &quot;UseFlatStyle&quot;: true,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"
+                         width="600.0" height="70.0" Font="Oxygen" itemColour3="4281621959"/>
+              <Component type="ScriptPanel" id="Panel1" x="-20.0" y="400.0" itemColour2="4283715921"
+                         itemColour="4282926405" width="650.0" height="10.0" bgColour="16777215"
+                         textColour="16777215"/>
+              <Component type="ScriptLabel" id="Label4" x="363.0" y="370.0" itemColour2="1118481"
+                         text="Release" fontSize="20.0" width="80.0" height="20.0" fontStyle="Regular"
+                         alignment="centredBottom" editable="0" fontName="Oxygen"/>
+              <Component type="ScriptSlider" id="Knob4" x="363.0" y="300.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+                         numStrips="128.0" width="80.0" height="70.0" scaleFactor="0.6000000238418579"
+                         processorId="DefaultEnvelope1" parameterId="Release" max="5000.0"
+                         middlePosition="2500.0" min="50.0" defaultValue="50.0" suffix="ms"
+                         showValuePopup="Below" pluginParameterName="Release" isPluginParameter="1"/>
+              <Component type="ScriptPanel" id="Blur" x="0.0" y="30.0" width="600.0" height="260.0"
+                         visible="0"/>
+              <Component type="ScriptButton" id="Button1" x="349.0" y="4.0" width="20.0"
+                         height="20.0" text="Presets" filmstripImage="C:\Users\Anigma PC\Desktop\on_off_button_6_frame.png"/>
+              <Component type="ScriptSlider" id="Knob5" x="560.0" y="100.0" middlePosition="0.0"
+                         stepSize="0.009999999776482582" min="-100.0" filmstripImage="C:\Users\Anigma PC\Desktop\slider_(1).png"
+                         numStrips="128.0" width="40.0" height="140.0" processorId="Simple Gain1"
+                         parameterId="Gain" max="16.0" showValuePopup="Left"/>
+              <Component type="ScriptFloatingTile" id="Settings" x="0.0" y="30.0" width="200.0"
+                         height="250.0" ContentType="CustomSettings" bgColour="4278190080"
+                         itemColour="0" itemColour2="0" Data="{&#10;  &quot;Driver&quot;: false,&#10;  &quot;Device&quot;: false,&#10;  &quot;Output&quot;: false,&#10;  &quot;BufferSize&quot;: false,&#10;  &quot;SampleRate&quot;: false,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: true,&#10;  &quot;ScaleFactor&quot;: true,&#10;  &quot;VoiceAmountMultiplier&quot;: true,&#10;  &quot;ClearMidiCC&quot;: true,&#10;  &quot;SampleLocation&quot;: true,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: true,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+                         visible="0"/>
+              <Component type="ScriptButton" id="SetButt" x="9.0" y="7.0" width="30.0"
+                         height="20.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_button_Bypass_22x13_6f.png"
+                         text="SettingsButton"/>
+              <Component type="ScriptButton" id="FXBUTT" x="290.0" y="310.0" filmstripImage="C:\Users\Anigma PC\Desktop\on_off_button_6_frame.png"
+                         width="20.0" height="20.0" text="FXButt"/>
+              <Component type="ScriptLabel" id="Label5" x="270.0" y="330.0" itemColour2="1118481"
+                         text="More FX" fontSize="12.5" width="60.0" height="20.0" fontStyle="Regular"
+                         editable="0" fontName="Oxygen"/>
+              <Component type="ScriptPanel" id="ExtraFX" x="110.0" y="50.0" width="390.0"
+                         height="220.0" visible="0">
+                <Component type="ScriptLabel" id="Label6" x="59.0" y="192.0" itemColour2="1118481"
+                           text="High Boost" fontSize="20.0" width="90.0" height="20.0"
+                           fontStyle="Bold" alignment="centredBottom" editable="0" parentComponent="ExtraFX"/>
+                <Component type="ScriptSlider" id="Air" x="71.0" y="134.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+                           numStrips="128.0" width="70.0" height="60.0" scaleFactor="0.5"
+                           parentComponent="ExtraFX" processorId="Parametriq EQ1" parameterId="Gain"
+                           mode="Decibel" min="-10.0" max="20.0" stepSize="0.1000000014901161"
+                           suffix=" dB" middlePosition="0.0"/>
+                <Component type="ScriptFloatingTile" id="FloatingTile4" x="20.0" y="30.0"
+                           ContentType="FilterDisplay" bgColour="2432696320" itemColour="4294967295"
+                           itemColour2="655263995" Data="{&#10;  &quot;ProcessorId&quot;: &quot;Parametriq EQ1&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+                           parentComponent="ExtraFX" textColour="4288413692" width="170.0"
+                           height="100.0" itemColour3="4294967295"/>
+                <Component type="ScriptSlider" id="Air1" x="260.0" y="130.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+                           numStrips="128.0" width="70.0" height="60.0" scaleFactor="0.5"
+                           parentComponent="ExtraFX" processorId="Saturator1" parameterId="Saturation"
+                           max="0.550000011920929" suffix=" dB" middlePosition="0.2199999988079071"/>
+                <Component type="ScriptLabel" id="Label7" x="250.0" y="190.0" itemColour2="1118481"
+                           text="Saturate" fontSize="20.0" width="90.0" height="20.0" fontStyle="Bold"
+                           alignment="centredBottom" editable="0" parentComponent="ExtraFX"/>
+                <Component type="ScriptSlider" id="Air3" x="260.0" y="40.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+                           numStrips="128.0" width="70.0" height="60.0" scaleFactor="0.5"
+                           parentComponent="ExtraFX" processorId="Degrade1" parameterId="DryWet"
+                           suffix=" dB" middlePosition="0.5" mouseSensitivity="2.0"/>
+                <Component type="ScriptLabel" id="Label9" x="246.0" y="100.0" itemColour2="1118481"
+                           text="Lofi" fontSize="20.0" width="90.0" height="20.0" fontStyle="Bold"
+                           alignment="centredBottom" editable="0" parentComponent="ExtraFX"/>
+              </Component>
+              <Component type="ScriptFloatingTile" id="FloatingTile3" x="69.0" y="30.0"
+                         ContentType="PresetBrowser" bgColour="4278190080" itemColour="4294967295"
+                         itemColour2="0" Data="{&#10;  &quot;ShowSaveButton&quot;: true,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: true,&#10;  &quot;ShowNotes&quot;: true,&#10;  &quot;ShowEditButtons&quot;: true,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: true,&#10;  &quot;ShowDeleteButton&quot;: true,&#10;  &quot;ShowFavoriteIcon&quot;: false,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 3,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3333333333333333,&#10;    0.3333333333333333,&#10;    0.3333333333333333&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"
+                         width="460.0" height="260.0" visible="0"/>
+              <Component type="ScriptComboBox" id="ComboBox1" x="260.0" y="270.0" width="80.0"
+                         height="20.0" text="SampleMaps" items="EPiano&#10;FeltPiano&#10;GrandPiano&#10;SoftPiano"
+                         itemColour2="4227858431" itemColour="3355443" bgColour="16777215"
+                         max="4"/>
+              <Component type="ScriptSlider" id="Knob6" x="8.0" y="300.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+                         numStrips="128.0" width="50.0" height="50.0" scaleFactor="0.4000000059604645"
+                         processorId="Filter1" parameterId="Frequency" max="20000.0" middlePosition="3000.0"
+                         min="20.0" defaultValue="20000.0" mode="Frequency" showValuePopup="Below"
+                         isPluginParameter="1" pluginParameterName="Cutoff"/>
+              <Component type="ScriptLabel" id="Label8" x="8.0" y="346.0" itemColour2="1118481"
+                         text="Cutoff" fontSize="15.0" width="50.0" height="20.0" fontStyle="Regular"
+                         editable="0" fontName="Oxygen"/>
+              <Component type="ScriptImage" id="Image2" x="180.0" y="326.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+                         width="40.0" height="30.0" enabled="0"/>
+              <Component type="ScriptImage" id="Image3" x="84.0" y="327.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+                         width="37.0" height="23.0" enabled="0"/>
+              <Component type="ScriptImage" id="Image4" x="21.0" y="316.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+                         width="26.0" height="21.0" enabled="0"/>
+              <Component type="ScriptImage" id="Image5" x="380.0" y="320.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+                         width="40.0" height="30.0" enabled="0"/>
+              <Component type="ScriptImage" id="Image6" x="480.0" y="330.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+                         width="40.0" height="20.0" enabled="0"/>
+              <Component type="ScriptImage" id="Image7" x="553.0" y="316.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+                         width="26.0" height="21.0" enabled="0"/>
+              <Component type="ScriptLabel" id="Label10" x="535.0" y="346.0" itemColour2="1118481"
+                         text="Transpose" width="60.0" height="20.0" fontStyle="Regular"
+                         editable="0" fontName="Oxygen" fontSize="12.0"/>
+              <Component type="ScriptSlider" id="Knob7" x="540.0" y="300.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+                         numStrips="128.0" width="50.0" height="50.0" scaleFactor="0.4000000059604645"
+                         processorId="Transposer1" parameterId="TransposeAmount" max="12.0"
+                         middlePosition="0.0" min="-12.0" showValuePopup="Below" isPluginParameter="1"
+                         pluginParameterName="MidiTranspose" suffix=" Semi-Tones" stepSize="1.0"/>
+              <Component type="ScriptImage" id="Image8" x="553.0" y="317.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+                         width="26.0" height="21.0" enabled="0"/>
+            </ContentProperties>
+          </UIData>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+      <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="1" Intensity="0.0">
+      <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+      <ChildProcessors/>
+    </Processor>
+    <Processor Type="EffectChain" ID="FX" Bypassed="0">
+      <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+      <ChildProcessors>
+        <Processor Type="PolyphonicFilter" ID="Filter1" Bypassed="0" Gain="0.0"
+                   Frequency="4122.27978515625" Q="1.0" Mode="8.0" Quality="0.0"
+                   BipolarIntensity="0.0">
+          <EditorStates BodyShown="1" Visible="1" Solo="0"/>
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Frequency Modulation" Bypassed="0"
+                       Intensity="1.0">
+              <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Bipolar Freq Modulation" Bypassed="0"
+                       Intensity="1.0">
+              <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Q Modulation" Bypassed="0" Intensity="1.0">
+              <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="SimpleReverb" ID="Simple Reverb1" Bypassed="0" RoomSize="0.8399999737739563"
+                   Damping="0.2000000029802322" WetLevel="0.5799999833106995" DryLevel="0.4200000166893005"
+                   Width="0.800000011920929" FreezeMode="0.1000000014901161">
+          <EditorStates BodyShown="1" Visible="1" Solo="0"/>
+          <ChildProcessors/>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+        <Processor Type="SimpleGain" ID="Simple Gain1" Bypassed="0" Gain="8.31999683380127"
+                   Delay="0.0" Width="100.0" Balance="0.0" InvertPolarity="0.0">
+          <EditorStates BodyShown="1" Visible="1" Solo="0"/>
+          <ChildProcessors>
+            <Processor Type="ModulatorChain" ID="Gain Modulation" Bypassed="0" Intensity="1.0">
+              <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Delay Modulation" Bypassed="0" Intensity="1.0">
+              <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Width Modulation" Bypassed="0" Intensity="1.0">
+              <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+              <ChildProcessors/>
+            </Processor>
+            <Processor Type="ModulatorChain" ID="Pan Modulation" Bypassed="0" Intensity="1.0">
+              <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+          <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+        </Processor>
+      </ChildProcessors>
+    </Processor>
+    <Processor Type="StreamingSampler" ID="Sampler1" Bypassed="0" Gain="1.0"
+               Balance="0.0" VoiceLimit="256.0" KillFadeTime="20.0" IconColour="0"
+               PreloadSize="8192.0" BufferSize="4096.0" VoiceAmount="256.0"
+               SamplerRepeatMode="3.0" RRGroupAmount="1.0" PitchTracking="1.0"
+               OneShot="0.0" CrossfadeGroups="0.0" Purged="0.0" Reversed="0.0"
+               NumChannels="1" UseStaticMatrix="0.0" Group0Table="" Group1Table=""
+               Group2Table="" Group3Table="" Group4Table="" Group5Table="" Group6Table=""
+               Group7Table="" SampleMapID="FeltPiano">
+      <EditorStates BodyShown="1" Visible="1" Solo="0" MapPanelShown="1" BigSampleMap="1"
+                    Folded="1"/>
+      <ChildProcessors>
+        <Processor Type="MidiProcessorChain" ID="Midi Processor" Bypassed="0">
+          <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+          <ChildProcessors>
+            <Processor Type="Transposer" ID="Transposer1" Bypassed="0" TransposeAmount="0.0">
+              <EditorStates BodyShown="1" Visible="1" Solo="0"/>
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="GainModulation" Bypassed="0" Intensity="1.0">
+          <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+          <ChildProcessors>
+            <Processor Type="SimpleEnvelope" ID="DefaultEnvelope1" Bypassed="0" Monophonic="0.0"
+                       Retrigger="1.0" Intensity="1.0" Attack="5.0" Release="977.7000122070313"
+                       LinearMode="1.0">
+              <EditorStates BodyShown="1" Visible="1" Solo="0"/>
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                           Intensity="1.0">
+                  <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+            <Processor Type="Velocity" ID="Velocity Modulator1" Bypassed="0" Intensity="1.0"
+                       UseTable="0.0" Inverted="0.0" DecibelMode="0.0">
+              <EditorStates BodyShown="1" Visible="1" Solo="0"/>
+              <ChildProcessors/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="PitchModulation" Bypassed="0" Intensity="0.0">
+          <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="EffectChain" ID="FX" Bypassed="0">
+          <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+          <ChildProcessors>
+            <Processor Type="CurveEq" ID="Parametriq EQ1" Bypassed="0" NumFilters="2"
+                       Band0="-10.0" Band1="1735.0" Band2="0.4799999892711639" Band3="1.0"
+                       Band4="3.0" Band5="0.0" Band6="190.0" Band7="0.300000011920929"
+                       Band8="1.0" Band9="2.0" FFTEnabled="1">
+              <EditorStates BodyShown="1" Visible="1" Solo="0"/>
+              <ChildProcessors/>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+            <Processor Type="Saturator" ID="Saturator1" Bypassed="0" Saturation="0.0"
+                       WetAmount="1.0" PreGain="0.0" PostGain="0.0">
+              <EditorStates BodyShown="1" Visible="1" Solo="0"/>
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Saturation Modulation" Bypassed="0"
+                           Intensity="1.0">
+                  <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+            <Processor Type="Degrade" ID="Degrade1" Bypassed="0" Headroom="0.800000011920929"
+                       Quant="1.0" Rate="0.618399977684021" PostFilt="1.0" Non-Lin="0.5099999904632568"
+                       Output="0.0">
+              <EditorStates BodyShown="1" Visible="1" Solo="0"/>
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="FX Modulation" Bypassed="0" Intensity="1.0">
+                  <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+              <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="Sample Start" Bypassed="0" Intensity="1.0">
+          <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+          <ChildProcessors/>
+        </Processor>
+        <Processor Type="ModulatorChain" ID="Group Fade" Bypassed="0" Intensity="1.0">
+          <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+          <ChildProcessors>
+            <Processor Type="SimpleEnvelope" ID="Simple Envelope1" Bypassed="0" Monophonic="0.0"
+                       Retrigger="1.0" Intensity="1.0" Attack="0.0" Release="670.0"
+                       LinearMode="1.0">
+              <EditorStates BodyShown="1" Visible="1" Solo="0"/>
+              <ChildProcessors>
+                <Processor Type="ModulatorChain" ID="Attack Time Modulation" Bypassed="0"
+                           Intensity="1.0">
+                  <EditorStates BodyShown="1" Visible="0" Solo="0"/>
+                  <ChildProcessors/>
+                </Processor>
+              </ChildProcessors>
+            </Processor>
+          </ChildProcessors>
+        </Processor>
+      </ChildProcessors>
+      <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+      <channels>
+        <channelData enabled="1" level="0.0" suffix=""/>
+      </channels>
+    </Processor>
+  </ChildProcessors>
+  <RoutingMatrix NumSourceChannels="2" Channel0="0" Send0="-1" Channel1="1" Send1="-1"/>
+  <macro_controls>
+    <macro name="Macro 1" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 2" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 3" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 4" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 5" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 6" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 7" value="0.0" midi_cc="-1"/>
+    <macro name="Macro 8" value="0.0" midi_cc="-1"/>
+  </macro_controls>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Processor>

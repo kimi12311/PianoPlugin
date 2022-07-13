@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="FeltPiano" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="33" LoKey="33" HiKey="35" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-A0.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="0" MonolithLength="532480" Normalized="1" NormalizedPeak="3.818552732467651"/>
+  <sample Root="24" LoKey="24" HiKey="26" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-C0.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="532480" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="4.352683544158936"/>
+  <sample Root="27" LoKey="27" HiKey="29" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-D#0.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="1064960" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="4.535224914550781"/>
+  <sample Root="30" LoKey="30" HiKey="32" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-F#0.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="1597440" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="4.273770809173584"/>
+  <sample Root="45" LoKey="45" HiKey="47" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-A1.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="2129920" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="4.004766464233398"/>
+  <sample Root="36" LoKey="36" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-C1.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="2662400" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="5.028698921203613"/>
+  <sample Root="39" LoKey="39" HiKey="41" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-D#1.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="3194880" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="3.89944052696228"/>
+  <sample Root="42" LoKey="42" HiKey="44" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-F#1.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="3727360" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="4.632032871246338"/>
+  <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-A2.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="4259840" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="7.622004985809326"/>
+  <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-C2.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="4792320" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="5.346222877502441"/>
+  <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-D#2.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="5324800" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="5.656309604644775"/>
+  <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-F#2.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="5857280" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="3.63754415512085"/>
+  <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-A3.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="6389760" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="5.311557769775391"/>
+  <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-C3.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="6922240" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="5.028698921203613"/>
+  <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-D#3.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="7454720" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="5.699600219726563"/>
+  <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-F#3.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="7987200" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="6.756082534790039"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-A4.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="8519680" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="4.191761493682861"/>
+  <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-C4.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="9052160" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="5.448453426361084"/>
+  <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-D#4.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="9584640" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="6.898315906524658"/>
+  <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-F#4.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="10117120" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="6.314704418182373"/>
+  <sample Root="93" LoKey="93" HiKey="95" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-A5.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="10649600" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="8.011491775512695"/>
+  <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-C5.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="11182080" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="6.875157356262207"/>
+  <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-D#5.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="11714560" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="6.674882888793945"/>
+  <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\FeltPianoConverted\FeltPiano-F#5.wav" Duplicate="0"
+          LowerVelocityXFade="4" SampleEnd="529200" SampleRate="44100.0"
+          MonolithOffset="12247040" MonolithLength="532480" Normalized="1"
+          NormalizedPeak="7.336990833282471"/>
+</samplemap>

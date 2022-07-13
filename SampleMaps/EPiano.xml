@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<samplemap CrossfadeGamma="1.0" ID="EPiano" RRGroupAmount="1.0" MicPositions=";"
+           SaveMode="2">
+  <sample Root="24" LoKey="24" HiKey="26" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-C0.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="0" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="4.880399227142334"/>
+  <sample Root="27" LoKey="27" HiKey="29" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-D#0.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="180224" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="4.847189426422119"/>
+  <sample Root="30" LoKey="30" HiKey="32" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-F#0.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="360448" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="6.205871105194092"/>
+  <sample Root="33" LoKey="33" HiKey="35" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-A0.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="540672" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="4.059844017028809"/>
+  <sample Root="36" LoKey="36" HiKey="38" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-C1.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="720896" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="4.469649314880371"/>
+  <sample Root="39" LoKey="39" HiKey="41" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-D#1.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="901120" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="5.286705493927002"/>
+  <sample Root="42" LoKey="42" HiKey="44" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-F#1.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="1081344" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="3.778918266296387"/>
+  <sample Root="45" LoKey="45" HiKey="47" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-A1.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="1261568" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="4.835030078887939"/>
+  <sample Root="48" LoKey="48" HiKey="50" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-C2.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="1441792" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="6.393561363220215"/>
+  <sample Root="51" LoKey="51" HiKey="53" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-D#2.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="1622016" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="7.622004985809326"/>
+  <sample Root="54" LoKey="54" HiKey="56" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-F#2.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="1802240" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="6.827880859375"/>
+  <sample Root="57" LoKey="57" HiKey="59" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-A2.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="1982464" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="5.670993328094482"/>
+  <sample Root="60" LoKey="60" HiKey="62" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-C3.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="2162688" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="7.001496315002441"/>
+  <sample Root="63" LoKey="63" HiKey="65" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-D#3.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="2342912" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="6.770041465759277"/>
+  <sample Root="66" LoKey="66" HiKey="68" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-F#3.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="2523136" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="6.433732986450195"/>
+  <sample Root="69" LoKey="69" HiKey="71" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-A3.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="2703360" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="10.29761123657227"/>
+  <sample Root="72" LoKey="72" HiKey="74" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-C4.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="2883584" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="9.163031578063965"/>
+  <sample Root="75" LoKey="75" HiKey="77" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-D#4.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="3063808" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="7.715328693389893"/>
+  <sample Root="78" LoKey="78" HiKey="80" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-F#4.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="3244032" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="6.949522495269775"/>
+  <sample Root="81" LoKey="81" HiKey="83" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-A4.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="3424256" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="7.632658004760742"/>
+  <sample Root="84" LoKey="84" HiKey="86" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-C5.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="3604480" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="5.5887770652771"/>
+  <sample Root="87" LoKey="87" HiKey="89" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-D#5.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="3784704" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="7.563942432403564"/>
+  <sample Root="90" LoKey="90" HiKey="92" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-F#5.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="3964928" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="5.155286312103271"/>
+  <sample Root="93" LoKey="93" HiKey="96" LoVel="0" HiVel="127" RRGroup="1"
+          FileName="D:\SamplerTest\ConvertedSamples\EPiano\ElectricPiano-A5.wav"
+          Duplicate="0" LowerVelocityXFade="5" UpperVelocityXFade="5" SampleEnd="176400"
+          MonolithOffset="4145152" MonolithLength="180224" SampleRate="44100.0"
+          Normalized="1" NormalizedPeak="3.908743858337402"/>
+</samplemap>

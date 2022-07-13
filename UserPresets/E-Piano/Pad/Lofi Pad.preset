@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Preset Version="1.0.0">
+  <Content Processor="Interface">
+    <Control type="ScriptSlider" id="Knob1" value="0.2899999916553497"/>
+    <Control type="ScriptSlider" id="Knob2" value="1.0"/>
+    <Control type="ScriptSlider" id="Knob3" value="1800.550048828125"/>
+    <Control type="ScriptSlider" id="Knob4" value="1528.780029296875"/>
+    <Control type="ScriptButton" id="Button1" value="1.0"/>
+    <Control type="ScriptSlider" id="Knob5" value="-2.235174179077148e-6"/>
+    <Control type="ScriptButton" id="SetButt" value="0.0"/>
+    <Control type="ScriptButton" id="FXBUTT" value="1.0"/>
+    <Control type="ScriptSlider" id="Air" value="20.0"/>
+    <Control type="ScriptSlider" id="Air1" value="0.0"/>
+    <Control type="ScriptSlider" id="Air3" value="0.239999994635582"/>
+    <Control type="ScriptComboBox" id="ComboBox1" value="1.0"/>
+    <Control type="ScriptSlider" id="Knob6" value="20000.0"/>
+    <Control type="ScriptSlider" id="Knob7" value="0.0"/>
+  </Content>
+  <MidiAutomation/>
+  <MPEData Enabled="0"/>
+</Preset>

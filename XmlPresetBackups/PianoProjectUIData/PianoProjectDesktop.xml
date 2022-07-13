@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Image1" x="0.0" y="0.0" fileName="C:\Users\Anigma PC\Desktop\Untitled design (28).png"
+             width="600.0" height="410.0"/>
+  <Component type="ScriptImage" id="Logo" x="257.0" y="3.0" width="90.0" height="20.0"
+             fileName="C:\Users\Anigma PC\Desktop\Soitta_Logo.png"/>
+  <Component type="ScriptSlider" id="Knob1" x="70.0" y="310.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+             numStrips="128.0" width="70.0" height="60.0" scaleFactor="0.5"
+             processorId="Simple Reverb1" parameterId="WetLevel" showValuePopup="Below"
+             pluginParameterName="Reverb" isPluginParameter="1"/>
+  <Component type="ScriptSlider" id="Knob2" x="470.0" y="310.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+             numStrips="128.0" width="70.0" height="60.0" scaleFactor="0.5"
+             processorId="Velocity Modulator1" parameterId="Intensity" showValuePopup="Below"
+             pluginParameterName="Dynamics" isPluginParameter="1"/>
+  <Component type="ScriptLabel" id="Label1" x="62.0" y="369.0" itemColour2="1118481"
+             text="Reverb" fontSize="21.0" width="80.0" height="20.0" fontStyle="Regular"
+             editable="0" fontName="Oxygen"/>
+  <Component type="ScriptLabel" id="Label2" x="459.0" y="369.0" itemColour2="1118481"
+             text="Dynamics" fontSize="21.0" width="90.0" height="20.0" fontStyle="Regular"
+             alignment="centredBottom" editable="0" fontName="Oxygen"/>
+  <Component type="ScriptSlider" id="Knob3" x="162.0" y="300.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+             numStrips="128.0" width="80.0" height="70.0" scaleFactor="0.6000000238418579"
+             processorId="DefaultEnvelope1" parameterId="Attack" max="5000.0"
+             middlePosition="2500.0" min="5.0" defaultValue="5.0" suffix="ms"
+             showValuePopup="Below" pluginParameterName="Attack" isPluginParameter="1"/>
+  <Component type="ScriptLabel" id="Label3" x="162.0" y="370.0" itemColour2="1118481"
+             text="Attack" fontSize="20.0" width="80.0" height="20.0" fontStyle="Regular"
+             alignment="centredBottom" editable="0" fontName="Oxygen"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile1" x="338.0" y="536.0"
+             bgColour="16777215" itemColour="3355443"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile2" x="0.0" y="410.0"
+             ContentType="Keyboard" bgColour="4278921026" itemColour="452984831"
+             itemColour2="4294967295" textColour="590079" Data="{&#10;  &quot;KeyWidth&quot;: 14.0,&#10;  &quot;DisplayOctaveNumber&quot;: false,&#10;  &quot;LowKey&quot;: 24,&#10;  &quot;HiKey&quot;: 96,&#10;  &quot;CustomGraphics&quot;: true,&#10;  &quot;DefaultAppearance&quot;: true,&#10;  &quot;BlackKeyRatio&quot;: 0.699999988079071,&#10;  &quot;ToggleMode&quot;: false,&#10;  &quot;MidiChannel&quot;: 1,&#10;  &quot;UseVectorGraphics&quot;: true,&#10;  &quot;UseFlatStyle&quot;: true,&#10;  &quot;MPEKeyboard&quot;: false,&#10;  &quot;MPEStartChannel&quot;: 2,&#10;  &quot;MPEEndChannel&quot;: 16&#10;}"
+             width="600.0" height="70.0" Font="Oxygen" itemColour3="4281621959"/>
+  <Component type="ScriptPanel" id="Panel1" x="-20.0" y="400.0" itemColour2="4283715921"
+             itemColour="4282926405" width="650.0" height="10.0" bgColour="16777215"
+             textColour="16777215"/>
+  <Component type="ScriptLabel" id="Label4" x="363.0" y="370.0" itemColour2="1118481"
+             text="Release" fontSize="20.0" width="80.0" height="20.0" fontStyle="Regular"
+             alignment="centredBottom" editable="0" fontName="Oxygen"/>
+  <Component type="ScriptSlider" id="Knob4" x="363.0" y="300.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+             numStrips="128.0" width="80.0" height="70.0" scaleFactor="0.6000000238418579"
+             processorId="DefaultEnvelope1" parameterId="Release" max="5000.0"
+             middlePosition="2500.0" min="50.0" defaultValue="50.0" suffix="ms"
+             showValuePopup="Below" pluginParameterName="Release" isPluginParameter="1"/>
+  <Component type="ScriptPanel" id="Blur" x="0.0" y="30.0" width="600.0" height="260.0"
+             visible="0"/>
+  <Component type="ScriptButton" id="Button1" x="349.0" y="4.0" width="20.0"
+             height="20.0" text="Presets" filmstripImage="C:\Users\Anigma PC\Desktop\on_off_button_6_frame.png"/>
+  <Component type="ScriptSlider" id="Knob5" x="560.0" y="100.0" middlePosition="0.0"
+             stepSize="0.009999999776482582" min="-100.0" filmstripImage="C:\Users\Anigma PC\Desktop\slider_(1).png"
+             numStrips="128.0" width="40.0" height="140.0" processorId="Simple Gain1"
+             parameterId="Gain" max="16.0" showValuePopup="Left"/>
+  <Component type="ScriptPanel" id="ExtraFX" x="110.0" y="50.0" width="390.0"
+             height="220.0" visible="0">
+    <Component type="ScriptLabel" id="Label6" x="110.0" y="191.0" itemColour2="1118481"
+               text="High Boost" fontSize="20.0" width="90.0" height="20.0"
+               fontStyle="Bold" alignment="centredBottom" editable="0" parentComponent="ExtraFX"/>
+    <Component type="ScriptSlider" id="Air" x="120.0" y="133.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+               numStrips="128.0" width="70.0" height="60.0" scaleFactor="0.5"
+               parentComponent="ExtraFX" processorId="Parametriq EQ1" parameterId="Gain"
+               mode="Decibel" min="-10.0" max="20.0" stepSize="0.1000000014901161"
+               suffix=" dB" middlePosition="0.0"/>
+    <Component type="ScriptFloatingTile" id="FloatingTile4" x="20.0" y="30.0"
+               ContentType="FilterDisplay" bgColour="2432696320" itemColour="4294967295"
+               itemColour2="655263995" Data="{&#10;  &quot;ProcessorId&quot;: &quot;Parametriq EQ1&quot;,&#10;  &quot;Index&quot;: -1,&#10;  &quot;FollowWorkspace&quot;: false&#10;}"
+               parentComponent="ExtraFX" textColour="4288413692" width="170.0"
+               height="100.0" itemColour3="4294967295"/>
+    <Component type="ScriptSlider" id="Air1" x="260.0" y="130.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+               numStrips="128.0" width="70.0" height="60.0" scaleFactor="0.5"
+               parentComponent="ExtraFX" processorId="Saturator1" parameterId="Saturation"
+               max="0.550000011920929" suffix=" dB" middlePosition="0.2199999988079071"/>
+    <Component type="ScriptLabel" id="Label7" x="250.0" y="190.0" itemColour2="1118481"
+               text="Saturate" fontSize="20.0" width="90.0" height="20.0" fontStyle="Bold"
+               alignment="centredBottom" editable="0" parentComponent="ExtraFX"/>
+    <Component type="ScriptSlider" id="Air3" x="260.0" y="40.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+               numStrips="128.0" width="70.0" height="60.0" scaleFactor="0.5"
+               parentComponent="ExtraFX" processorId="Degrade1" parameterId="DryWet"
+               suffix=" dB" middlePosition="0.5" mouseSensitivity="2.0"/>
+    <Component type="ScriptLabel" id="Label9" x="246.0" y="100.0" itemColour2="1118481"
+               text="Lofi" fontSize="20.0" width="90.0" height="20.0" fontStyle="Bold"
+               alignment="centredBottom" editable="0" parentComponent="ExtraFX"/>
+    <Component type="ScriptSlider" id="Air2" x="30.0" y="134.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+               numStrips="128.0" width="70.0" height="60.0" scaleFactor="0.5"
+               parentComponent="ExtraFX" processorId="HP" parameterId="Frequency"
+               mode="Frequency" min="20.0" max="20000.0" stepSize="0.1000000014901161"
+               suffix=" hz" middlePosition="500.0" defaultValue="20.0" showValuePopup="Below"/>
+    <Component type="ScriptLabel" id="Label11" x="17.0" y="191.0" itemColour2="1118481"
+               text="High Pass" fontSize="20.0" width="90.0" height="20.0" fontStyle="Bold"
+               alignment="centredBottom" editable="0" parentComponent="ExtraFX"/>
+  </Component>
+  <Component type="ScriptFloatingTile" id="Settings" x="0.0" y="30.0" width="200.0"
+             height="250.0" ContentType="CustomSettings" bgColour="4278190080"
+             itemColour="0" itemColour2="0" Data="{&#10;  &quot;Driver&quot;: false,&#10;  &quot;Device&quot;: false,&#10;  &quot;Output&quot;: false,&#10;  &quot;BufferSize&quot;: false,&#10;  &quot;SampleRate&quot;: false,&#10;  &quot;GlobalBPM&quot;: false,&#10;  &quot;StreamingMode&quot;: true,&#10;  &quot;ScaleFactor&quot;: true,&#10;  &quot;VoiceAmountMultiplier&quot;: true,&#10;  &quot;ClearMidiCC&quot;: true,&#10;  &quot;SampleLocation&quot;: true,&#10;  &quot;DebugMode&quot;: false,&#10;  &quot;UseOpenGL&quot;: true,&#10;  &quot;ScaleFactorList&quot;: [&#10;    0.5,&#10;    0.75,&#10;    1.0,&#10;    1.25,&#10;    1.5,&#10;    2.0&#10;  ]&#10;}"
+             visible="0"/>
+  <Component type="ScriptButton" id="SetButt" x="9.0" y="7.0" width="30.0"
+             height="20.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_button_Bypass_22x13_6f.png"
+             text="SettingsButton"/>
+  <Component type="ScriptButton" id="FXBUTT" x="290.0" y="310.0" filmstripImage="C:\Users\Anigma PC\Desktop\on_off_button_6_frame.png"
+             width="20.0" height="20.0" text="FXButt"/>
+  <Component type="ScriptLabel" id="Label5" x="270.0" y="330.0" itemColour2="1118481"
+             text="More FX" fontSize="12.5" width="60.0" height="20.0" fontStyle="Regular"
+             editable="0" fontName="Oxygen"/>
+  <Component type="ScriptFloatingTile" id="FloatingTile3" x="69.0" y="30.0"
+             ContentType="PresetBrowser" bgColour="4278190080" itemColour="4294967295"
+             itemColour2="0" Data="{&#10;  &quot;ShowSaveButton&quot;: true,&#10;  &quot;ShowExpansionsAsColumn&quot;: false,&#10;  &quot;ShowFolderButton&quot;: true,&#10;  &quot;ShowNotes&quot;: true,&#10;  &quot;ShowEditButtons&quot;: true,&#10;  &quot;EditButtonOffset&quot;: 10,&#10;  &quot;ShowAddButton&quot;: true,&#10;  &quot;ShowRenameButton&quot;: true,&#10;  &quot;ShowDeleteButton&quot;: true,&#10;  &quot;ShowFavoriteIcon&quot;: false,&#10;  &quot;ButtonsInsideBorder&quot;: false,&#10;  &quot;NumColumns&quot;: 3,&#10;  &quot;ColumnWidthRatio&quot;: [&#10;    0.3333333333333333,&#10;    0.3333333333333333,&#10;    0.3333333333333333&#10;  ],&#10;  &quot;ListAreaOffset&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;ColumnRowPadding&quot;: [&#10;    0,&#10;    0,&#10;    0,&#10;    0&#10;  ],&#10;  &quot;SearchBarBounds&quot;: [],&#10;  &quot;MoreButtonBounds&quot;: [],&#10;  &quot;SaveButtonBounds&quot;: [],&#10;  &quot;FavoriteButtonBounds&quot;: []&#10;}"
+             width="460.0" height="260.0" visible="0"/>
+  <Component type="ScriptComboBox" id="ComboBox1" x="260.0" y="270.0" width="80.0"
+             height="20.0" text="SampleMaps" items="EPiano&#10;FeltPiano&#10;GrandPiano&#10;SoftPiano"
+             itemColour2="4227858431" itemColour="3355443" bgColour="16777215"
+             max="4"/>
+  <Component type="ScriptSlider" id="Knob6" x="8.0" y="300.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+             numStrips="128.0" width="50.0" height="50.0" scaleFactor="0.4000000059604645"
+             processorId="Filter1" parameterId="Frequency" max="20000.0" middlePosition="3000.0"
+             min="50.0" defaultValue="20000.0" mode="Frequency" showValuePopup="Below"
+             isPluginParameter="1" pluginParameterName="Cutoff"/>
+  <Component type="ScriptLabel" id="Label8" x="8.0" y="346.0" itemColour2="1118481"
+             text="Cutoff" fontSize="15.0" width="50.0" height="20.0" fontStyle="Regular"
+             editable="0" fontName="Oxygen"/>
+  <Component type="ScriptImage" id="Image2" x="180.0" y="326.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+             width="40.0" height="30.0" enabled="0"/>
+  <Component type="ScriptImage" id="Image3" x="84.0" y="327.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+             width="37.0" height="23.0" enabled="0"/>
+  <Component type="ScriptImage" id="Image4" x="21.0" y="316.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+             width="26.0" height="21.0" enabled="0"/>
+  <Component type="ScriptImage" id="Image5" x="380.0" y="320.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+             width="40.0" height="30.0" enabled="0"/>
+  <Component type="ScriptImage" id="Image6" x="480.0" y="330.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+             width="40.0" height="20.0" enabled="0"/>
+  <Component type="ScriptImage" id="Image7" x="553.0" y="316.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+             width="26.0" height="21.0" enabled="0"/>
+  <Component type="ScriptLabel" id="Label10" x="535.0" y="346.0" itemColour2="1118481"
+             text="Transpose" width="60.0" height="20.0" fontStyle="Regular"
+             editable="0" fontName="Oxygen" fontSize="12.0"/>
+  <Component type="ScriptSlider" id="Knob7" x="540.0" y="300.0" filmstripImage="C:\Users\Anigma PC\Desktop\ST_knob_Ambient_48x48_128f.png"
+             numStrips="128.0" width="50.0" height="50.0" scaleFactor="0.4000000059604645"
+             processorId="Transposer1" parameterId="TransposeAmount" max="12.0"
+             middlePosition="0.0" min="-12.0" showValuePopup="Below" isPluginParameter="1"
+             pluginParameterName="MidiTranspose" suffix=" Semi-Tones" stepSize="1.0"/>
+  <Component type="ScriptImage" id="Image8" x="553.0" y="317.0" fileName="C:\Users\Anigma PC\Desktop\Synths (2).png"
+             width="26.0" height="21.0" enabled="0"/>
+</ContentProperties>
